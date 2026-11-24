@@ -1,0 +1,17 @@
+behavior,rule,n,rate,share
+Flip-Out,oxxo_diff1 <= 0.059 AND tx_roll3 <= 21.167 AND oxxo_roll3 <= 0.970,1,0.47141503109323346,6.778098607778546e-06
+Flip-Out,oxxo_diff1 <= 0.059 AND tx_roll3 <= 21.167 AND oxxo_roll3 > 0.970,1,0.26628895184135976,6.778098607778546e-06
+Flip-Out,oxxo_diff1 <= 0.059 AND tx_roll3 > 21.167 AND oxxo_tx_ratio_m <= 0.181,1,0.2846193529368413,6.778098607778546e-06
+Flip-Out,oxxo_diff1 <= 0.059 AND tx_roll3 > 21.167 AND oxxo_tx_ratio_m > 0.181,1,0.3920831490490933,6.778098607778546e-06
+Flip-Out,oxxo_diff1 > 0.059 AND oxxo_ratio_delta_m <= 0.166 AND tx_log <= 2.803,1,0.643414375520715,6.778098607778546e-06
+Flip-Out,oxxo_diff1 > 0.059 AND oxxo_ratio_delta_m <= 0.166 AND tx_log > 2.803,1,0.5356472188046364,6.778098607778546e-06
+Flip-Out,oxxo_diff1 > 0.059 AND oxxo_ratio_delta_m > 0.166 AND tx_count_delta_m <= 3.500,1,0.7819506726457399,6.778098607778546e-06
+Flip-Out,oxxo_diff1 > 0.059 AND oxxo_ratio_delta_m > 0.166 AND tx_count_delta_m > 3.500,1,0.6741276512559867,6.778098607778546e-06
+Flip-In,merchant_entropy_m <= 1.344 AND tx_log <= 0.896 AND oxxo_roll3 <= 0.827,1,0.6878930817610063,6.778098607778546e-06
+Flip-In,merchant_entropy_m <= 1.344 AND tx_log <= 0.896 AND oxxo_roll3 > 0.827,1,0.5721343873517787,6.778098607778546e-06
+Flip-In,merchant_entropy_m <= 1.344 AND tx_log > 0.896 AND oxxo_ratio_delta_m <= 0.365,1,0.4842429888528382,6.778098607778546e-06
+Flip-In,merchant_entropy_m <= 1.344 AND tx_log > 0.896 AND oxxo_ratio_delta_m > 0.365,1,0.5605660083968279,6.778098607778546e-06
+Flip-In,merchant_entropy_m > 1.344 AND merchant_entropy_m <= 2.041 AND oxxo_diff1 <= 0.160,1,0.4194735511419502,6.778098607778546e-06
+Flip-In,merchant_entropy_m > 1.344 AND merchant_entropy_m <= 2.041 AND oxxo_diff1 > 0.160,1,0.46347665279704114,6.778098607778546e-06
+Flip-In,merchant_entropy_m > 1.344 AND merchant_entropy_m > 2.041 AND tenure_months <= 10.500,1,0.3952829402450204,6.778098607778546e-06
+Flip-In,merchant_entropy_m > 1.344 AND merchant_entropy_m > 2.041 AND tenure_months > 10.500,1,0.333446519524618,6.778098607778546e-06

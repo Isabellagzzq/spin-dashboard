@@ -1,0 +1,5 @@
+Method,Silhouette,Davies-Bouldin,Calinski-Harabasz,Smallest group (%),Stability (ARI)
+K-Means (3 groups),0.24,1.425,2431,22.8,0.738
+K-Means (4 groups),0.268,1.262,2380,13.1,0.667
+Gaussian mixture (3 groups),0.117,2.149,1113,29.5,0.98
+Hierarchical Ward (3 groups),0.243,1.45,1241,13.1,
